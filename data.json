@@ -1,0 +1,47 @@
+{
+  "movies": [
+    {
+      "title": "The Short Happy Life of Francis Macomber",
+      "duration": "Short (under 90 minutes)",
+      "genre": "Drama",
+      "mood": "Happy",
+      "movie": "A short drama film that explores personal growth and life-changing moments."
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "duration": "Medium (90-120 minutes)",
+      "genre": "Comedy",
+      "mood": "Relaxed",
+      "movie": "A quirky comedy with a runtime of 99 minutes, offering a lighthearted and visually stunning adventure."
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "duration": "Medium (90-120 minutes)",
+      "genre": "Comedy",
+      "mood": "Happy",
+      "movie": "A quirky comedy with a runtime of 99 minutes, offering a lighthearted and visually stunning adventure."
+    },
+    
+    {
+      "title": "Mad Max: Fury Road",
+      "duration": "Medium (90-120 minutes)",
+      "genre": "Action",
+      "mood": "Excited",
+      "movie": "An intense, action-packed movie with high-octane car chases and relentless energy."
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "duration": "Long (over 120 minutes)",
+      "genre": "Drama",
+      "mood": "Relaxed",
+      "movie": "A deeply moving drama about hope, friendship, and survival, with a runtime of 142 minutes."
+    },
+    {
+      "title": "Interstellar",
+      "duration": "Long (over 120 minutes)",
+      "genre": "Sci-Fi",
+      "mood": "Adventurous",
+      "movie": "A visually stunning sci-fi film that takes you on an emotional and thought-provoking journey through space and time."
+    }
+  ]
+}

@@ -24,7 +24,51 @@
       <h1 class="">Movie Recommender</h1>
       <!-- <p>Discover new films based on your preferences and mood.</p> -->
     </header>
+    <!-- main section -->
+    <main>
+      <div class="">
+        <div>
+          <label for="genre">Genre:</label>
+
+          <select name="genre" id="genre">
+            <option value="Comedy">Comedy</option>
+            <option value="Action">Action</option>
+            <option value="Drama">Drama</option>
+            <option value="Horror">Horror</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+          </select>
+          <button type="button" id="genre-submit">Genre</button>
+        </div>
+        <div>
+          <label for="duration">Duration:</label>
+
+          <select name="duration" id="duration">
+            <option value="Short">Short (under 90 minutes)</option>
+            <option value="Medium">Medium (90-120 minutes)</option>
+            <option value="Long">Long (over 120 minutes)</option>
+          </select>
+          <button type="button" id="duration-submit">Duration</button>
+        </div>
+        <div>
+          <label for="mood">Mood:</label>
+
+          <select name="mood" id="mood">
+            <option value="Happy">Happy</option>
+            <option value="Relaxed">Relaxed</option>
+            <option value="Excited">Excited</option>
+            <option value="Adventurous">Adventurous</option>
+          </select>
+          <button type="button" id="mood-submit">Mood</button>
+        </div>
+      </div>
+      <div id="result">
+        <h3></h3>
+      </div>
+    </main>
 
     <script src="script.js"></script>
   </body>
 </html>
+<!-- triger button and add event handler -->
+<!--filter data -->
+<!-- display result -->
