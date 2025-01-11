@@ -1,0 +1,10 @@
+.DS_Store  # macOS
+Thumbs.db  # Windows
+.vscode/   # VS Code settings
+.idea/     # IntelliJ settings
+
+
+.env
+.env.local
+.env.production
+.env.development
