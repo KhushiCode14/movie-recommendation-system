@@ -44,6 +44,10 @@ First, clone the repository to your local machine by running the following comma
 ```bash
 cd movie-recommender
 ```
+### 3. Open the Project in Your Browser
+```open index.html    # For Mac
+start index.html   # For Windows
+ ```
 
 ## How to Use
 
