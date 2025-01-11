@@ -15,13 +15,12 @@
       "movie": "A quirky comedy with a runtime of 99 minutes, offering a lighthearted and visually stunning adventure."
     },
     {
-      "title": "The Grand Budapest Hotel",
+      "title": "The Gate India Hotel",
       "duration": "Medium (90-120 minutes)",
       "genre": "Comedy",
       "mood": "Happy",
       "movie": "A quirky comedy with a runtime of 99 minutes, offering a lighthearted and visually stunning adventure."
     },
-    
     {
       "title": "Mad Max: Fury Road",
       "duration": "Medium (90-120 minutes)",
@@ -42,6 +41,41 @@
       "genre": "Sci-Fi",
       "mood": "Adventurous",
       "movie": "A visually stunning sci-fi film that takes you on an emotional and thought-provoking journey through space and time."
+    },
+    {
+      "title": "The Matrix",
+      "duration": "Long (over 120 minutes)",
+      "genre": "Action",
+      "mood": "Excited",
+      "movie": "A mind-bending action film about a dystopian future and the battle between humanity and machines."
+    },
+    {
+      "title": "La La Land",
+      "duration": "Medium (90-120 minutes)",
+      "genre": "Musical",
+      "mood": "Happy",
+      "movie": "A modern romantic musical about two dreamers falling in love while pursuing their passions in Los Angeles."
+    },
+    {
+      "title": "The Dark Knight",
+      "duration": "Long (over 120 minutes)",
+      "genre": "Action",
+      "mood": "Excited",
+      "movie": "The intense second installment of the Batman trilogy, exploring themes of chaos and heroism."
+    },
+    {
+      "title": "Inception",
+      "duration": "Long (over 120 minutes)",
+      "genre": "Sci-Fi",
+      "mood": "Adventurous",
+      "movie": "A complex sci-fi thriller that delves into the nature of dreams and reality, challenging perceptions."
+    },
+    {
+      "title": "The Pursuit of Happyness",
+      "duration": "Long (over 120 minutes)",
+      "genre": "Drama",
+      "mood": "Relaxed",
+      "movie": "A heartwarming and motivational drama about a man struggling to provide a better life for his son."
     }
   ]
 }

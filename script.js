@@ -74,10 +74,10 @@ function filterMovie() {
   const moodValue = document.getElementById("mood").value;
   const durationValue = document.getElementById("duration").value;
 
-  if (!genreValue || !moodValue || !durationValue) {
-    alert("Please select all options to filter the movies.");
-    return;
-  }
+  // if (!genreValue || !moodValue || !durationValue) {
+  //   alert("Please select all options to filter the movies.");
+  //   return;
+  // }
 
   fetch("./data.json")
     .then((response) => response.json())
@@ -107,6 +107,7 @@ function displayResults(movies) {
 
   movies.forEach((movie) => {
     const movieCard = document.createElement("div");
+    movieCard.classList.add("movie-card");
     movieCard.innerHTML = `
       <h2>${movie.title}</h2>
       <h3>Genre: ${movie.genre}</h3>
