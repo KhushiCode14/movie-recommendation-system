@@ -1,40 +1,42 @@
 
-**Movie Recommender**
+
+                # Movie Recommender
 
 
 This project is a Movie Recommender application that helps users find movies based on different filters, such as Genre, Duration, and Mood. Users can select their preferences from dropdowns and receive movie recommendations that match their criteria.
 
-Features
-Genre Filter: Filter movies by genre such as Comedy, Action, Drama, etc.
-Duration Filter: Filter movies based on their length: Short (under 90 minutes), Medium (90-120 minutes), and Long (over 120 minutes).
-Mood Filter: Filter movies based on your mood: Happy, Relaxed, Excited, or Adventurous.
-Responsive Design: The website is responsive and adjusts seamlessly across different screen sizes.
-Dynamic Data: Fetches movie data from a JSON file and dynamically updates the options and movie cards based on the user’s selections.
-Tech Stack
-HTML5: Structure and content of the webpage.
-CSS3: Styling the website with modern layout techniques.
-JavaScript: For dynamic behavior, such as fetching data and filtering results.
-JSON: Movie data is fetched from a local JSON file.
+Movie Recommender is a web application designed to provide movie suggestions based on user preferences, including genre, mood, and duration. The app pulls data from a `data.json` file and displays movie recommendations that match the selected criteria. Built using HTML, CSS, and JavaScript, this app is simple, yet effective in helping users discover new movies.
 
-Project Structure
-index.html: The main HTML file containing the structure of the app.
+## Features
+
+- **Genre Selection**: Choose from multiple genres (Comedy, Action, Drama, etc.).
+- **Duration Filter**: Select movies based on the desired duration (Short, Medium, Long).
+- **Mood Filter**: Choose movies based on your current mood (Happy, Excited, Relaxed, etc.).
+- **Responsive Layout**: Works seamlessly on both desktop and mobile devices.
+- **Movie Display**: Displays movie details such as title, genre, duration, and mood.
+
+## Technologies Used
+
+- **HTML**: Structure and content of the app.
+- **CSS**: Styling and layout of the app.
+- **JavaScript**: Dynamic functionality, including data fetching and user interaction.
+- **JSON**: Stores movie data.
+
+**Project Structure**
+[index.html]: The main HTML file containing the structure of the app.
 style.css: The CSS file used for styling the app.
 script.js: The JavaScript file that handles dynamic content rendering, filtering, and event handling.
 data.json: A JSON file containing movie data for the app to fetch.
 
-Installation
+**Installation**
 To run this project locally on your machine, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/movie-recommender.git
-Navigate to the project directory:
 
-bash
-Copy code
-cd movie-recommender
+`git clone https://github.com/your-username/movie-recommender.git
+Navigate to the project directory:
+cd movie-recommender`
 Open index.html in your browser: You can now open the index.html file in your preferred browser to start using the Movie Recommender app.
 
 How to Use
