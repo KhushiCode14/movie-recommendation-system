@@ -1,4 +1,7 @@
-Movie Recommender
+
+**Movie Recommender**
+
+
 This project is a Movie Recommender application that helps users find movies based on different filters, such as Genre, Duration, and Mood. Users can select their preferences from dropdowns and receive movie recommendations that match their criteria.
 
 Features
@@ -12,6 +15,12 @@ HTML5: Structure and content of the webpage.
 CSS3: Styling the website with modern layout techniques.
 JavaScript: For dynamic behavior, such as fetching data and filtering results.
 JSON: Movie data is fetched from a local JSON file.
+
+Project Structure
+index.html: The main HTML file containing the structure of the app.
+style.css: The CSS file used for styling the app.
+script.js: The JavaScript file that handles dynamic content rendering, filtering, and event handling.
+data.json: A JSON file containing movie data for the app to fetch.
 
 Installation
 To run this project locally on your machine, follow these steps:
