@@ -26,32 +26,41 @@ Movie Recommender is a web application designed to provide movie suggestions bas
 - **data.json**: A JSON file containing an array of movie objects with attributes such as title, genre, duration, and mood.
 
 
-**Installation**
+## Installation
 
-To run this project locally on your machine, follow these steps:
+Follow the steps below to get the Movie Recommender app running locally on your machine.
 
-Clone the repository:
+### 1. Clone the Repository
+
+First, clone the repository to your local machine by running the following command:
+
+```bash
+git clone https://github.com/your-username/movie-recommender.git
+```
+
+### 2. Navigate to the Project Directory
+First, clone the repository to your local machine by running the following command:
+
+```bash
+cd movie-recommender
+```
+
+## How to Use
+
+1. **Select Filters**  
+   Choose the desired **Genre**, **Duration**, and **Mood** filters from the dropdown menus.
+
+2. **Apply Filters**  
+   Click on the **Genre**, **Duration**, or **Mood** button to filter the movie list based on your selected criteria.
+
+3. **View Results**  
+   The app will display a list of movies that match your selected filters. You can browse the list of movies that fit the chosen genre, duration, and mood.
+
+4. **No Results**  
+   If no movies match your selected criteria, a message will inform you that **no results were found**.
 
 
-`git clone https://github.com/your-username/movie-recommender.git
-Navigate to the project directory:
-cd movie-recommender`
-Open index.html in your browser: You can now open the index.html file in your preferred browser to start using the Movie Recommender app.
 
-How to Use
-Select the Genre, Duration, and Mood filters from the dropdowns.
-Click the Genre, Duration, or Mood button to filter the movie list.
-The app will display a list of movies matching your selected criteria.
-If no movies match your criteria, a message will inform you that no results were found.
-Project Structure
-graphql
-Copy code
-movie-recommender/
-├── index.html           # The main HTML file
-├── style.css            # CSS file for styling the webpage
-├── script.js            # JavaScript file that handles the logic
-├── data.json            # JSON file containing the movie data
-└── README.md            # This README file
 ## Example of `data.json`
 
 The `data.json` file contains movie data structured as follows:
