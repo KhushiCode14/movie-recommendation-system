@@ -1,7 +1,4 @@
-
-
-                # Movie Recommender
-
+# Movie Recommendor 
 
 This project is a Movie Recommender application that helps users find movies based on different filters, such as Genre, Duration, and Mood. Users can select their preferences from dropdowns and receive movie recommendations that match their criteria.
 
@@ -29,6 +26,7 @@ script.js: The JavaScript file that handles dynamic content rendering, filtering
 data.json: A JSON file containing movie data for the app to fetch.
 
 **Installation**
+
 To run this project locally on your machine, follow these steps:
 
 Clone the repository:
@@ -53,11 +51,11 @@ movie-recommender/
 ├── script.js            # JavaScript file that handles the logic
 ├── data.json            # JSON file containing the movie data
 └── README.md            # This README file
-Example of data.json file
-The data.json file contains movie data structured as follows:
+## Example of `data.json`
 
-json
-Copy code
+The `data.json` file contains movie data structured as follows:
+
+```json
 {
   "movies": [
     {
