@@ -20,10 +20,11 @@ Movie Recommender is a web application designed to provide movie suggestions bas
 - **JSON**: Stores movie data.
 
 **Project Structure**
-[index.html]: The main HTML file containing the structure of the app.
-style.css: The CSS file used for styling the app.
-script.js: The JavaScript file that handles dynamic content rendering, filtering, and event handling.
-data.json: A JSON file containing movie data for the app to fetch.
+- **index.html**: This is the main HTML file that contains the structure of the app.
+- **style.css**: The CSS file used for styling the app. It defines the layout, fonts, colors, and other visual aspects.
+- **script.js**: The JavaScript file that manages dynamic content rendering, movie filtering, and event handling.
+- **data.json**: A JSON file containing an array of movie objects with attributes such as title, genre, duration, and mood.
+
 
 **Installation**
 
@@ -78,6 +79,7 @@ The `data.json` file contains movie data structured as follows:
     }
   ]
 }
+```
 Contributing
 Fork the repository.
 Create your feature branch (git checkout -b feature-name).
