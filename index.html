@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <!-- navbar  -->
+    <!-- Navbar section for site navigation -->
     <nav>
       <div>
         <a href="index.html" class="logo-text">MoodieMovies</a>
@@ -19,13 +19,14 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <!-- header section -->
+    <!-- Header section with the main title -->
     <header class="head-section">
       <h1 class="">Movie Recommender</h1>
       <!-- <p>Discover new films based on your preferences and mood.</p> -->
     </header>
     <!-- main section -->
     <main>
+      <!-- Genre selection dropdown -->
       <div class="dropdown-main">
         <div>
           <label for="genre">Genre:</label>
@@ -39,6 +40,7 @@
           </select>
           <!-- <button type="button" id="genre-submit">Genre</button> -->
         </div>
+        <!-- Duration selection dropdown -->
         <div>
           <label for="duration">Duration:</label>
 
@@ -49,6 +51,7 @@
           </select>
           <!-- <button type="button" id="duration-submit">Duration</button> -->
         </div>
+        <!-- Mood selection dropdown -->
         <div>
           <label for="mood">Mood:</label>
 
@@ -60,13 +63,13 @@
           </select>
           <!-- <button type="button" id="mood-submit">Mood</button> -->
         </div>
-        <!-- <button type="button" id="filter-submit">Filter Movies</button> -->
       </div>
+      <!-- Section to display the results of the movie recommendations -->
       <div id="result">
         <h3></h3>
       </div>
     </main>
-
+    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
