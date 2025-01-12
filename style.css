@@ -2,6 +2,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     margin: 0;
+    width: 100vw;
     padding: 0;
 }
 
@@ -39,6 +40,7 @@ nav ul{
     flex-direction: row;
     display: flex;
     gap: 5px;
+      margin-right: 25px;
     gap: 10px;
     list-style: none;
     justify-content: flex-end;
@@ -127,6 +129,7 @@ button:hover {
 
 .movie-card {
   /* background-color: #f9f9f9; */
+  width: 80vw;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -140,13 +143,13 @@ button:hover {
 }
 
 .movie-card h2 {
-  font-size: 24px;
+  font-size: 28px;
   color: #333;
   margin-bottom: 10px;
 }
 
 .movie-card h3 {
-  font-size: 16px;
+  font-size:20px;
   color: #666;
   margin: 5px 0;
 }
@@ -163,6 +166,7 @@ button:hover {
 @media (max-width: 1024px) {
     nav ul {
         gap: 15px;
+      
     }
 
     nav .logo-text {
@@ -220,11 +224,14 @@ button:hover {
         padding: 10px;
         height: auto;
         /* align-items: center; */
+        height: 20px;
     }
 
     nav .logo-text {
         font-size: 18px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+        padding-left: 30px;
+
     }
 
     main {
