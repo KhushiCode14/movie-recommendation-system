@@ -58,18 +58,6 @@ function renderGenre(movies) {
 }
 
 // trigger button and event listener (click)
-const genreButton = document
-  .getElementById("genre-submit")
-  .addEventListener("click", filterMovie);
-const durationButton = document
-  .getElementById("duration-submit")
-  .addEventListener("click", filterMovie);
-const moodButton = document
-  .getElementById("mood-submit")
-  .addEventListener("click", filterMovie);
-document
-  .getElementById("filter-submit")
-  .addEventListener("click", filterMovies);
 
 //filter data based on option selected
 function filterMovie() {
@@ -85,31 +73,30 @@ function filterMovie() {
   fetch("./data.json")
     .then((response) => response.json())
     .then((data) => {
-      const noFiltersApplied = !genreValue && !moodValue && !durationValue;
-
-      // Filter movies based on selected criteria or show all if no filters
-      const moviesToDisplay = noFiltersApplied
-        ? data.movies
-        : data.movies.filter((movie) => {
-            return (
-              (genreValue ? movie.genre === genreValue : true) &&
-              (moodValue ? movie.mood === moodValue : true) &&
-              (durationValue ? movie.duration === durationValue : true)
-            );
-          });
-
-      displayResults(
-        moviesToDisplay,
-        !(genreValue || moodValue || durationValue)
-      );
-      // displayResults(filterMovieValue);
+      const filterMovieValue = data.movies.filter((movie) => {
+        return (
+          (genreValue ? movie.genre === genreValue : true) &&
+          (moodValue ? movie.mood === moodValue : true) &&
+          (durationValue ? movie.duration === durationValue : true)
+        );
+      });
+      displayResults(filterMovieValue);
     })
     .catch((error) => {
       console.error("There was an issue fetching the movie data:", error);
     });
 }
+const genreButton = document
+  .getElementById("genre")
+  .addEventListener("change", filterMovie);
+const durationButton = document
+  .getElementById("duration")
+  .addEventListener("change", filterMovie);
+const moodButton = document
+  .getElementById("mood")
+  .addEventListener("change", filterMovie);
 
-function displayResults(movies, highlightAll = false) {
+function displayResults(movies) {
   const result = document.getElementById("result");
   result.innerHTML = ""; // Clear previous results
 
@@ -117,9 +104,7 @@ function displayResults(movies, highlightAll = false) {
     result.innerHTML = "<h3>No movies found matching your criteria.</h3>";
     return;
   }
-  if (highlightAll) {
-    movieCard.classList.add("highlight");
-  }
+
   movies.forEach((movie) => {
     const movieCard = document.createElement("div");
     movieCard.classList.add("movie-card");
